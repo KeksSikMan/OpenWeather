@@ -49,8 +49,8 @@ export const Weather = () => {
   const [state, dispatch] = React.useReducer(reducer, initialState);
 
   //config
-  const URL_POSITION = "http://api.openweathermap.org/data/2.5/weather?"; //lat=61&lon=105
-  const URL_CITY = "http://api.openweathermap.org/data/2.5/weather?q=";
+  const URL_POSITION = "https://api.openweathermap.org/data/2.5/weather?"; //lat=61&lon=105
+  const URL_CITY = "https://api.openweathermap.org/data/2.5/weather?q=";
   const apiKey = "&appid=4767a8f4b28c4e47ab7a7bca73daf5a9&units=metric";
 
   //api
